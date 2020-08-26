@@ -1,6 +1,6 @@
 {
   "name": "3h-term",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A terminal simulator in browser.",
   "module": "./dist/3h-term.min.js",
   "main": "./dist/3h-term.umd.min.js",
