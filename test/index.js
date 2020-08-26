@@ -82,7 +82,7 @@ setInterval(() => {
 }, SHINE_INTERVAL);
 
 terminal.write('This is a simple demo of ')
-    .write('term-js', {
+    .write('3h-term', {
         color: $shineColor,
         textShadow: '0 1px 0 #001',
     })

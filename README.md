@@ -1,10 +1,10 @@
-# term-js
+# 3h-term
 
 > A terminal simulator in browser.
 
 ## Links
 
-- [API Reference](https://github.com/huang2002/term-js/wiki)
+- [API Reference](https://github.com/huang2002/3h-term/wiki)
 - [License (MIT)](./LICENSE)
 
 ## Example
@@ -15,12 +15,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>term-js example</title>
+    <title>3h-term example</title>
 </head>
 
 <body>
     <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/super-x@1.0.0/dist/super-x.umd.min.js" defer="defer"></script>
-    <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/term-js@0.1.0/dist/term-js@0.1.0.umd.min.js" defer="defer"></script>
+    <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/3h-term@0.1.0/dist/3h-term@0.1.0.umd.min.js" defer="defer"></script>
     <script>
 
         const handlers = new Map([
@@ -48,7 +48,7 @@
         document.body.appendChild(terminal.container);
 
         terminal.write('This is an example of ')
-            .write('term-js', {
+            .write('3h-term', {
                 color: '#FFF',
                 fontWeight: 'bold',
             })

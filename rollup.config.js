@@ -11,14 +11,14 @@ export default [
         output: {
             format: 'umd',
             name: 'T',
-            file: './dist/term-js.umd.js'
+            file: './dist/3h-term.umd.js'
         }
     },
     {
         input,
         output: {
             format: 'esm',
-            file: './dist/term-js.js'
+            file: './dist/3h-term.js'
         }
     }
 ];
