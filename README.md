@@ -20,7 +20,7 @@
 
 <body>
     <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/super-x@1.0.0/dist/super-x.umd.min.js"></script>
-    <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/3h-term@0.1.0/dist/3h-term@0.1.0.umd.min.js"></script>
+    <script type="text/javascript" crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/3h-term@0.1.0/dist/3h-term.umd.min.js"></script>
     <script>
 
         const handlers = new Map([
