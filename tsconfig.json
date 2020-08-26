@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "./types",
+        "outDir": "./js",
+        "rootDir": "./src",
+        "strict": true,
+        "noUnusedLocals": true,
+        "allowUmdGlobalAccess": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src"
+    ]
+}
