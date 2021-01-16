@@ -134,22 +134,22 @@ export class Terminal {
     /**
      * The color of terminal background
      */
-    readonly $background = X.toReactive('#334');
+    readonly $background: X.ReactiveValue<string> = X.toReactive('#334');
     /** dts2md break */
     /**
      * The color of terminal foreground
      */
-    readonly $foreground = X.toReactive('#EEE');
+    readonly $foreground: X.ReactiveValue<string> = X.toReactive('#EEE');
     /** dts2md break */
     /**
      * The color of input prompt
      */
-    readonly $prompt = X.toReactive('> ');
+    readonly $prompt: X.ReactiveValue<string> = X.toReactive('> ');
     /** dts2md break */
     /**
      * The style of terminal split (between screen and input)
      */
-    readonly $split = X.toReactive('solid 1px #445');
+    readonly $split: X.ReactiveValue<string> = X.toReactive('solid 1px #445');
     /** dts2md break */
     /**
      * Input history
